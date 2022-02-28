@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --lightblue: #7bbeeb;
+    --darkblue: #123e9c;
+}
+
+body{
+    color: var(--darkblue);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    padding: 10px 35px 10px 0px;
+    background-color: var(--lightblue);
+    
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 0 10px 0 50px;
+    display: inline;
+    background-color: var(--darkblue);
+}
+header a {
+    text-decoration: none;
+    color: var(--lightblue);
+}
+
+header nav {
+    float: right;
+    color:var(--darkblue);
+}
+
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: var(--darkblue);
+    font-weight: bold;
+    padding: 0 3px 0 3px;
+    border-bottom: 3px solid var(--darkblue);
+}
+
+.hero {
+    background-image: url("../images/russell.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative
+}
+
+.hero-text {
+    background-color: var(--lightblue);
+    padding: 10px;
+  width: auto;
+  color: #024e76;
+  position: absolute;
+  bottom: 20px;
+  right: 60px;
+  font-weight: bold;
+}
+
+.content h2 {
+    font-size: 50px;
+    padding: 0 10px 0 20px;
+    display: inline-block;
+    flex-wrap:wrap;
+}
+
+
+
+.text {
+    text-align: left;
+    display: inline;
+    flex-wrap: nowrap;
+    float: inline-end;
+    
+}
+
+#contact-me ul li {
+    float: left;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    font-weight: bold;
+    padding: 0px 3px 0 3px;
+    border-bottom: 3px solid var(--darkblue);
+    margin: 0 70px 10px 70px;
+    background-color: var(--lightblue);
+}
+
+.About-Me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 30px;
+    background-color: var(--lightblue);
+}
+.About-Me h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    border-right: var(--darkblue) solid 3px;
+    padding: 0 30px 0 0;
+    background-color: var(--lightblue);
+}
+.About-Me .text {
+    flex: 0 0 80%;
+    padding: 0 0 0 30px;
+    background-color: var(--lightblue);
+}
+
+.my-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 30px;
+    background-color: var(--lightblue);
+}
+
+.my-projects h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    border-right: var(--darkblue) solid 3px;
+    padding: 0 30px 0 0;
+    font-size:3vw;
+    background-color: var(--lightblue);
+}
+
+.contact-me {
+    font-size: 30px;
+    border-right: var(--darkblue) solid 3px;
+    background-color: var(--lightblue);
+}
+
+
+
+.about-me h2{
+    font-size:3vw
+}
+
+#img1 {
+    border:var(--lightblue) solid 3px;
+    padding: 0px;
+    background-image: url("../images/app1.jpg");
+    flex: 0 0 80%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 10px 0 0 0;
+}
+#img1 p{
+    background-color: var(--lightblue);
+    padding: 10px;
+      width: auto;
+      color: #024e76;
+      position: absolute;
+      bottom: 20px;
+      left: 60px;
+      font-weight: bold;
+}
+    #img2 {
+        border:var(--lightblue) solid 3px;
+        padding: 0px;
+        background-image: url("../images/app2.jpg");
+        flex: 0 0 30%;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin: 10px 0 0 0;
+}
+#img2 p{
+        background-color: var(--lightblue);
+        padding: 10px;
+        width: auto;
+        color: #024e76;
+        position: absolute;
+        bottom: 20px;
+        left: 60px;
+        font-weight: bold;
+        margin: 10px 0 0 0;
+}
+#img3 {
+        border:var(--lightblue) solid 3px;
+        padding: 0px;
+        background-image: url("../images/app3.jpg");
+        flex: 0 0 30%;
+        height: 400px;
+        background-size: cover;
+        background-position: right;
+        position: relative;
+        float: right;
+        margin: 10px 0 0 0;
+}
+#img3 p{
+        background-color: var(--lightblue);
+        padding: 10px;
+        width: auto;
+        color: #024e76;
+        position: absolute;
+        bottom: 20px;
+        left: 60px;
+        font-weight: bold;
+}
+#img4 {
+    border:var(--lightblue) solid 3px;
+    padding: 0px;
+    background-image: url("../images/app4.jpg");
+    flex: 0 0 30%;
+    height: 400px;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    float: right;
+    margin: 10px 0 0 0;
+}
+#img4 p{
+    background-color: var(--lightblue);
+    padding: 10px;
+    width: auto;
+    color: #024e76;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    font-weight: bold;
+}
+#img5 {
+    border:var(--lightblue) solid 3px;
+    padding: 0px;
+    background-image: url("../images/app5.jpg");
+    flex: 0 0 30%;
+    height: 400px;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    float: right;
+    margin: 10px 0 0 0;
+}
+#img5 p{
+    background-color: var(--lightblue);
+    padding: 10px;
+    width: auto;
+    color: #024e76;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    font-weight: bold;
+}
+body {
+    background-color: var(--darkblue);
+}
